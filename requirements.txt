@@ -1,4 +1,7 @@
-streamlit>=1.32
-tensorflow>=2.13
-opencv-python-headless>=4.8
-numpy>=1.24
+# Pinned for reproducible Streamlit Community Cloud builds.
+# The saved model was created with Keras 3.13.2.
+streamlit==1.58.0
+tensorflow-cpu==2.21.0
+keras==3.13.2
+opencv-python-headless==4.12.0.88
+numpy==2.2.6
